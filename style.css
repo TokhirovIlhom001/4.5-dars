@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  background: #d9d9d9;
+}
+.header-wrapper {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 30px  0px; */
+}
+.btn {
+  width: 166px;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  color: white;
+  font-weight: 400;
+  background: #000aff;
+  border-radius: 3px;
+  font-size: 18px;
+}
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: #000000;
+  border-left: 5px solid blue;
+  padding-left: 10px;
+  margin-top: 45px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 45px;
+  flex-direction: column;
+  gap: 20px;
+}
+.input-group input {
+  width: 1100px;
+  height: 65px;
+  padding: 10px 30px;
+  background: #ffffff;
+  border: 2px solid #d0d0d0;
+  border-radius: 3px;
+  margin-right: 100px;
+}
+
+.input-group textarea {
+  width: 1100px;
+  height: 140px;
+  background: #ffffff;
+  border: 2px solid #d0d0d0;
+  border-radius: 3px;
+  padding: 20px 10px;
+  margin-bottom: 16px;
+  margin-right: 100px;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0px 0px 0px;
+}
+aside input {
+  width: 199px;
+  height: 48px;
+  background: #ffffff;
+  border: 2px solid #d0d0d0;
+  border-radius: 3px;
+  padding: 0px 10px;
+  font-size: 17px;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card-items {
+  width: 277px;
+  height: 300px;
+}
+.card-img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img img {
+  width: 100%;
+  height: 200px;
+}
+.title2 {
+  margin-bottom: 50px;
+}
+
+.pricees {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button{
+    border: 1px solid red;
+}
